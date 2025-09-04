@@ -1,0 +1,5 @@
+data/ 
+results/ 
+*.pdf 
+*.docx 
+.ipynb_checkpoints/ 
