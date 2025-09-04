@@ -3,3 +3,4 @@ results/
 *.pdf 
 *.docx 
 .ipynb_checkpoints/ 
+.Rhistory 
