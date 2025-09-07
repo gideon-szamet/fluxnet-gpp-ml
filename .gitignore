@@ -1,6 +1,33 @@
-data/ 
-results/ 
-*.pdf 
-*.docx 
-.ipynb_checkpoints/ 
-.Rhistory 
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# R
+.Rhistory
+.Rproj.user/
+.RData
+.Ruserdata
+
+# Data & results (keep only light example files)
+data/raw/**
+!data/raw/sample/**
+!data/raw/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+results/**/*.tmp
+results/**/*.log
+
+# IDEs
+.vscode/
+.idea/

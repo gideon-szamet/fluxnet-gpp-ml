@@ -5,14 +5,14 @@ It applies supervised and unsupervised learning to environmental data, starting 
 
 ## Notebooks
 
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gideon-szamet/machine-learning-final-project/blob/main/notebooks/01_data_exploration.ipynb)  
-  `01_data_exploration.ipynb` – Exploratory data analysis and feature engineering
-
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gideon-szamet/machine-learning-final-project/blob/main/notebooks/02_hypothesis_formulation.ipynb)  
-  `02_hypothesis_formulation.ipynb` – Business problem, research questions, and hypotheses
-
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gideon-szamet/machine-learning-final-project/blob/main/notebooks/Final_ML_Project_Gideon_Sz.ipynb)  
 
 ## Project Structure
-- `notebooks/` — project notebooks
-- `data/` — raw and processed data (to be added later)
-- `results/` — plots and outputs (to be added later)
+.
+├── notebooks/ # project notebooks
+├── data/
+│ ├── raw/ # raw data (not tracked in Git)
+│ └── processed/ # processed data (not tracked in Git)
+├── results/ # plots, metrics, and outputs
+├── requirements.txt
+└── README.md
